@@ -1,4 +1,3 @@
-# Image finder App. 
-It's written on Vanilla Java Script (add infinite-scroll)
-and use Pixabay API. 
+# Phonebook App with auth user. 
+It's written on React, use Redux and Connections API.
 
