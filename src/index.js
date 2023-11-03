@@ -14,7 +14,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-      <BrowserRouter basename="/react-homework-8-auth-user">
+      <BrowserRouter basename="/phonebook-redux-auth-user">
         <App />
       </BrowserRouter>
     </PersistGate>
