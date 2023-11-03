@@ -1,0 +1,29 @@
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.username {
+  margin-right: 10px;
+  font-weight: 500;
+}
+.button {
+    padding: 5px;
+    border: 0 solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: grey;
+    box-shadow: 0 4px 4px rgba(0,0,0,.15);
+    opacity: 0.8;
+    transition: opacity .25s cubic-bezier(.4,0,.2,1);
+    cursor: pointer;
+    
+    &:hover,
+    &:focus {
+    opacity: 1;
+    transition: opacity .25s cubic-bezier(.4,0,.2,1);
+    }
+}
+
+

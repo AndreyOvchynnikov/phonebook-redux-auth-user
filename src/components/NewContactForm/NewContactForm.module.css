@@ -1,0 +1,48 @@
+.form {
+  width: 350px;
+  margin: 15px auto;
+  padding: 15px;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 15px;
+  color: #333232;
+}
+
+.input {
+  padding: 11px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  line-height: normal;
+  transition: all 0.25s cubic-bezier(.4,0,.2,1);
+  margin-top: 5px;
+
+  &:focus {
+    outline: transparent;
+    border: 1px solid #2196f3;
+  }
+}
+
+.button {
+  min-width: 150px;
+  height: 40px;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #2196f3;
+  box-shadow: 0 4px 4px rgba(0,0,0,.15);
+  opacity: 1;
+  transition: opacity 0.25s cubic-bezier(.4,0,.2,1);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+    transition: opacity 0.25s cubic-bezier(.4,0,.2,1);
+  }
+}
